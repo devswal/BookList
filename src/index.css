@@ -1,13 +1,194 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.register{
+  margin-top: 140px;
+  background-color: rgba(61, 148, 154, 0.594);
+  text-align: center;
+}
+.register-form{
+  text-align: center;
+  padding: 40px;
+  
+}
+#register-card{
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+  background-color: gray;
+  box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
+}
+#register-input{
+  border: none;
+  background-color: rgb(219, 216, 216);
+  margin: 30px;
+  
+}
+#register-button{
+  background-color: rgb(45, 150, 180);
+  border-radius: 4px;
+  margin-top: 20px;
+
+}
+.login{
+  margin-top: 140px;
+  background-color: rgba(61, 148, 154, 0.594);
+  text-align: center;
+}
+.login-form{
+  text-align: center;
+  padding: 40px;
+}
+#login-label{
+  font-weight: bold;
+  padding: 15px;
+  font-size: 30px;
+}
+#login-input{
+  border: none;
+  background-color: rgb(219, 216, 216);
+  
+}
+#login-button{
+  background-color: rgb(45, 150, 180);
+  border-radius: 4px;
+  margin-top: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main{
+  background-color: rgb(4, 4, 57);
 }
+
+.addbook{
+  text-align: center;
+  padding: 90px;
+  background-color: rgb(4, 4, 57);
+}
+#addbook-input{
+  margin-top: 20px;
+}
+#addbook-title{
+  text-align: center;
+  color: whitesmoke;
+}
+#create-book{
+  text-align: center;
+  color: whitesmoke;
+}
+#addbook-submit{
+  background-color: rgb(4, 4, 57);
+  color: rgba(231, 231, 64, 0.959);
+  border-radius: 8px;
+  padding: 10px 400px;
+  border-color: rgba(231, 231, 64, 0.959);
+  margin-top: 20px;
+}
+#addbook-button{
+  background-color: rgb(4, 4, 57);
+  color: rgba(231, 231, 64, 0.959);
+  border-radius: 8px;
+  padding: 10px 80px;
+  border-color: rgba(231, 231, 64, 0.959);
+  margin-top: 20px;
+}
+.booklist{
+  background-color: rgb(4, 4, 57);
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(4, 4, 57);
+}
+.card1{
+   width: 300px;
+   height: 300px;
+   border: 2px solid black;
+   margin-bottom: 50px;
+   background-color: rgb(212, 177, 88);
+   position: relative;
+   left: 30px;
+   top: 50px;
+}
+.card2{
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  margin-bottom: 167px;
+  background-color: rgb(212, 177, 88);
+  position: relative;
+   left: 60px;
+   top: 50px;
+}
+.card3{
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  margin-bottom: 50px;
+  background-color: rgb(212, 177, 88);
+  position: relative;
+   left: 90px;
+   top: 50px;
+}
+.card h1{
+  max-width: 100%;
+}
+.card h4{
+  max-width: 100%;
+}
+
+#list-title{
+  text-align: center;
+  color: white;
+}
+#booklist-button{
+  background-color: rgba(231, 231, 64, 0.959);
+  color: black;
+  border-radius: 8px;
+  padding: 10px 40px;
+  border-color: rgba(231, 231, 64, 0.959);
+  margin: 30px;
+  font-weight: bold;
+  position: relative;
+  left: 1100px;
+}
+.record{
+  background-color: rgb(4, 4, 57);
+}
+#show-book{
+  background-color: rgb(4, 4, 57);
+  color: rgba(231, 231, 64, 0.959);
+  border-radius: 8px;
+  padding: 10px 40px;
+  border-color: rgba(231, 231, 64, 0.959);
+  margin: 30px;
+}
+#record-title{
+  text-align: center;
+  color: white;
+}
+#delete-book{
+  background-color: rgb(4, 4, 57);
+  color: rgba(222, 35, 35, 0.959);
+  border-radius: 8px;
+  padding: 10px 200px;
+  border-color: rgba(222, 35, 35, 0.959);
+  margin: 20px;
+  margin-left: 190px;
+  margin-bottom: 110px;
+}
+#edit-book{
+  background-color: rgb(4, 4, 57);
+  color: rgba(28, 212, 225, 0.959);
+  border-radius: 8px;
+  padding: 10px 200px;
+  border-color: rgba(28, 212, 225, 0.959);
+  margin: 20px;
+}
+#record-table{
+  margin: 50px;
+  width: 800px;
+  margin-left: 290px;
+}
+
+
+
+
+
+
